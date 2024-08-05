@@ -88,7 +88,7 @@ public class WhatsappRepository {
         messageId++;
 
         // Create a new Message with the messageId, content, and current timestamp
-        Message message = new Message(messageId, content, new Date());
+        Message message = new Message(messageId, content);
 
         // You might want to store the created message in a suitable data structure
 
